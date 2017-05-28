@@ -5,8 +5,12 @@
   "main": "index.js",
   "author": "Alejandro Druetta <aledruetta@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "libs": "cp node_modules/jquery/dist/jquery.js libs/ && cp node_modules/normalize/lib/normalize.js libs/ && cp -R node_modules/bootstrap/dist/* libs/bs/ && cp node_modules/font-awesome/css/font-awesome.css libs/"
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "normalize": "^0.3.1"
   }
