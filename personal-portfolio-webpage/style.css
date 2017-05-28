@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.page-content {
+  background-color: #f7f7f7;
+  height: calc(100vh - 50px);
+}
