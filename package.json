@@ -1,0 +1,13 @@
+{
+  "name": "FCC",
+  "version": "1.0.0",
+  "description": "freeCodeCamp projects",
+  "main": "index.js",
+  "author": "Alejandro Druetta <aledruetta@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "normalize": "^0.3.1"
+  }
+}
