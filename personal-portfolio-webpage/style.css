@@ -13,3 +13,12 @@ body {
 .page-content {
   background-color: #f7f7f7;
 }
+
+.project {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.project-img {
+  margin: 0 auto;
+}
