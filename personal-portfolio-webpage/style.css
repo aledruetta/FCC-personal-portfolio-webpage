@@ -10,13 +10,9 @@ body {
   margin-bottom: 0;
 }
 
-.page-content {
-  /*background-color: #f7f7f7;*/
-}
-
 .project {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 5em;
+  padding-bottom: 3em;
 }
 
 .project-img {
