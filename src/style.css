@@ -10,6 +10,7 @@
 
 body {
   padding-top: 50px;
+  color: #0D1F24;
 }
 
 .navbar {
@@ -19,26 +20,63 @@ body {
 .jumbotron {
   margin-bottom: 0;
   background-color: #CF5041;
-  color: #0D1F24;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.jumbotron .title {
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-title {
   font-family: 'Barrio', cursive;
+  font-size: 2.8em;
+  text-align: center;
+  align-self: center;
+  word-wrap: break-word;
+  min-width: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.jumbotron .title span {
-  font-size: 3em;
+.about-title-line2 {
+  font-size: 1.5em;
 }
 
-.about img {
+.about-title-line3 {
+  font-size: 0.7em;
+}
+
+.about-image {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.about-image img {
   border: 6px solid white;
 }
 
+.portfolio {
+  margin-top: 4em;
+}
+
 .project {
-  padding-top: 5em;
-  padding-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .project-img {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .about-title {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-title {
+    max-width: 60%;
+  }
 }
