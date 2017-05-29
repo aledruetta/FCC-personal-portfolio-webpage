@@ -22,6 +22,14 @@ body {
   color: #0D1F24;
 }
 
+.jumbotron .title {
+  font-family: 'Barrio', cursive;
+}
+
+.jumbotron .title span {
+  font-size: 3em;
+}
+
 .about img {
   border: 6px solid white;
 }
