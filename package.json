@@ -7,16 +7,18 @@
   "license": "MIT",
   "scripts": {
     "libs": "cp node_modules/jquery/dist/jquery.js libs/ && cp node_modules/normalize/lib/normalize.js libs/ && cp -R node_modules/bootstrap/dist/* libs/bs/ && cp node_modules/font-awesome/css/font-awesome.css libs/",
-    "images": "cp src/imgs/* dist/imgs/",
+    "images": "imagemin src/imgs/* -o dist/imgs",
     "inline": "htmlprocessor src/index.html -o dist/index-inline.html",
     "minify": "html-minifier -c html-minifier.conf dist/index-inline.html -o dist/index.html && rm dist/index-inline.html",
     "dist": "yarn run images && yarn run inline && yarn run minify"
   },
   "dependencies": {
-    "html-minifier": "^3.5.2",
-    "htmlprocessor": "^0.2.4",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
+    "html-minifier": "^3.5.2",
+    "htmlprocessor": "^0.2.4",
+    "imagemin": "^5.3.1",
+    "imagemin-cli": "^3.0.0",
     "jquery": "^3.2.1",
     "normalize": "^0.3.1"
   }
