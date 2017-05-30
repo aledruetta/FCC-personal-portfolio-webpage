@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
 
+    <!-- TODO: trocar fonte Barrio por outra que seja Unicode -->
     <link href="https://fonts.googleapis.com/css?family=Barrio|Khula:400,600" rel="stylesheet">
     <!-- build:css inline -->
     <link rel="stylesheet" href="../libs/bs/css/bootstrap.css">
@@ -32,9 +33,10 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse">
+          <!-- TODO: formatar botões (hover) -->
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Sobre <span class="sr-only">(current)</span></a></li>
-            <li><a href="#page-content">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contato</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -63,115 +65,108 @@
     </div> <!-- jumbotron end -->
 
     <main class="container page-content" id="page-content">
-      <div class="row">
-        <div class="col-sm-12">
 
-          <!-- Portfolio -->
-          <div class="portfolio" id="portfolio">
-            <div class="row">
-              <div class="col-sm-6">
+      <!-- Portfolio -->
+      <div class="row portfolio" id="portfolio">
+        <div class="col-sm-6">
 
-                <!-- Projeto Udacity Google Maps -->
-                <div class="project">
-                  <div class="project-img-wrapper">
-                    <a href="https://aledruetta.github.io/mapa-bairro/dist" class="linked-project-img" title="Clique para ver" target="_blank">
-                      <img src="imgs/mapa-bairro.png" alt="Project's screenshot"
-                        class="img-responsive project-img">
-                    </a>
-                  </div>
-                  <div class="project-details text-center">
-                    <h3 class="project-title">Projeto APIs Nanodegree da Udacity</h3>
-                    <p>
-                      <span class="label label-default">JavaScript</span>
-                      <span class="label label-default">jQuery</span>
-                      <span class="label label-default">KnockoutJS</span>
-                      <span class="label label-default">Bootstrap</span>
-                      <span class="label label-default">APIs</span>
-                    </p>
-                    <a href="https://github.com/aledruetta/mapa-bairro" target="_blank">
-                      repositório GitHub
-                    </a>
-                  </div>
-                </div>
+          <!-- Projeto Udacity Google Maps -->
+          <div class="project">
+            <div class="project-img-wrapper">
+              <a href="https://aledruetta.github.io/mapa-bairro/dist" class="linked-project-img" title="Clique para ver" target="_blank">
+                <img src="imgs/mapa-bairro.png" alt="Project's screenshot"
+                  class="img-responsive project-img">
+              </a>
+            </div>
+            <div class="project-details text-center">
+              <h3 class="project-title">Projeto APIs Nanodegree da Udacity</h3>
+              <p>
+                <span class="label label-default">JavaScript</span>
+                <span class="label label-default">jQuery</span>
+                <span class="label label-default">KnockoutJS</span>
+                <span class="label label-default">Bootstrap</span>
+                <span class="label label-default">APIs</span>
+              </p>
+              <a href="https://github.com/aledruetta/mapa-bairro" target="_blank">
+                repositório GitHub
+              </a>
+            </div>
+          </div>
 
-                <!-- Projeto Arcade Game -->
-                <div class="project">
-                  <div class="project-img-wrapper">
-                    <a href="https://aledruetta.github.io/arkanoid/dist" class="linked-project-img" title="Clique para ver" target="_blank">
-                      <img src="imgs/arkanoid.png" alt="Project's screenshot"
-                        class="img-responsive project-img">
-                    </a>
-                  </div>
-                  <div class="project-details text-center">
-                    <h3 class="project-title">HTML Arcade Game</h3>
-                    <p>
-                      <span class="label label-default">JavaScript</span>
-                      <span class="label label-default">jQuery</span>
-                      <span class="label label-default">HTML</span>
-                      <span class="label label-default">CSS</span>
-                    </p>
-                    <a href="https://github.com/aledruetta/arkanoid" target="_blank">
-                      repositório GitHub
-                    </a>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-sm-6">
-
-                <!-- Projeto Calculador JavaScript -->
-                <div class="project">
-                  <div class="project-img-wrapper">
-                    <a href="https://aledruetta.github.io/CalcXavaScript/dist" class="linked-project-img" title="Clique para ver" target="_blank">
-                      <img src="imgs/calcXavaScript.png" alt="Project's screenshot"
-                        class="img-responsive project-img">
-                    </a>
-                  </div>
-                  <div class="project-details text-center">
-                    <h3 class="project-title">Calculador JavaScript</h3>
-                    <p>
-                      <span class="label label-default">JavaScript</span>
-                      <span class="label label-default">jQuery</span>
-                      <span class="label label-default">HTML</span>
-                      <span class="label label-default">CSS</span>
-                    </p>
-                    <a href="https://github.com/aledruetta/CalcXavaScript" target="_blank">
-                      repositório GitHub
-                    </a>
-                  </div>
-                </div>
-
-                <!-- Projeto MeteoroLog -->
-                <div class="project">
-                  <div class="project-img-wrapper">
-                    <img src="imgs/meteorolog.jpg" alt="Project's screenshot"
-                      class="img-responsive project-img">
-                  </div>
-                  <div class="project-details text-center">
-                    <h3 class="project-title">Mini Estação Meteorológica</h3>
-                    <p>
-                      <span class="label label-default">Arduino</span>
-                      <span class="label label-default">C/C++</span>
-                      <span class="label label-default">Python</span>
-                      <span class="label label-default">Shell</span>
-                    </p>
-                    <a href="https://github.com/aledruetta/meteorolog" target="_blank">
-                      repositório GitHub
-                    </a>
-                  </div>
-                </div>
-
-              </div> <!-- col div end -->
-            </div> <!-- row div end -->
-          </div> <!-- portfolio div end -->
-
-         <div class="contact">
-         </div>
+          <!-- Projeto Arcade Game -->
+          <div class="project">
+            <div class="project-img-wrapper">
+              <a href="https://aledruetta.github.io/arkanoid/dist" class="linked-project-img" title="Clique para ver" target="_blank">
+                <img src="imgs/arkanoid.png" alt="Project's screenshot"
+                  class="img-responsive project-img">
+              </a>
+            </div>
+            <div class="project-details text-center">
+              <h3 class="project-title">HTML Arcade Game</h3>
+              <p>
+                <span class="label label-default">JavaScript</span>
+                <span class="label label-default">jQuery</span>
+                <span class="label label-default">HTML</span>
+                <span class="label label-default">CSS</span>
+              </p>
+              <a href="https://github.com/aledruetta/arkanoid" target="_blank">
+                repositório GitHub
+              </a>
+            </div>
+          </div>
 
         </div>
 
+        <div class="col-sm-6">
+
+          <!-- Projeto Calculador JavaScript -->
+          <div class="project">
+            <div class="project-img-wrapper">
+              <a href="https://aledruetta.github.io/CalcXavaScript/dist" class="linked-project-img" title="Clique para ver" target="_blank">
+                <img src="imgs/calcXavaScript.png" alt="Project's screenshot"
+                  class="img-responsive project-img">
+              </a>
+            </div>
+            <div class="project-details text-center">
+              <h3 class="project-title">Calculador JavaScript</h3>
+              <p>
+                <span class="label label-default">JavaScript</span>
+                <span class="label label-default">jQuery</span>
+                <span class="label label-default">HTML</span>
+                <span class="label label-default">CSS</span>
+              </p>
+              <a href="https://github.com/aledruetta/CalcXavaScript" target="_blank">
+                repositório GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Projeto MeteoroLog -->
+          <div class="project">
+            <div class="project-img-wrapper">
+              <img src="imgs/meteorolog.jpg" alt="Project's screenshot"
+                class="img-responsive project-img">
+            </div>
+            <div class="project-details text-center">
+              <h3 class="project-title">Mini Estação Meteorológica</h3>
+              <p>
+                <span class="label label-default">Arduino</span>
+                <span class="label label-default">C/C++</span>
+                <span class="label label-default">Python</span>
+                <span class="label label-default">Shell</span>
+              </p>
+              <a href="https://github.com/aledruetta/meteorolog" target="_blank">
+                repositório GitHub
+              </a>
+            </div>
+          </div>
+
+        </div> <!-- col div end -->
+      </div> <!-- portfolio div end -->
+
+      <div class="row contact">
       </div>
+
     </main>
 
     <footer class="container-fluid">

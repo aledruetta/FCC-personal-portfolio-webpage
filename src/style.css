@@ -35,12 +35,6 @@ body {
   box-shadow: 0 1px 4px dimgrey;
 }
 
-.page-content {
-  position: relative;
-  top: -50px;
-  padding-top: 50px;
-}
-
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -79,7 +73,9 @@ body {
 }
 
 .portfolio {
-  margin-top: 4em;
+  position: relative;
+  top: -50px;
+  padding-top: 120px;
 }
 
 .project {
