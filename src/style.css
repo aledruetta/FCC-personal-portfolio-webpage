@@ -23,6 +23,10 @@ body {
   border-bottom: 3px solid #A4C8D4;
 }
 
+.navbar-brand {
+  font-weight: 600;
+}
+
 .jumbotron {
   margin-bottom: 0;
   background-color: #CF5041;
@@ -40,11 +44,11 @@ body {
   font-family: 'Barrio', cursive;
   font-size: 2.8em;
   text-align: center;
-  align-self: center;
   word-wrap: break-word;
   min-width: 0;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .about-title-line2 {
@@ -77,6 +81,11 @@ body {
   margin: 0 auto;
 }
 
+.project-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .label-default {
   background-color: #575C74;
 }
@@ -89,6 +98,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .about-title {
+    align-self: center;
+    margin-bottom: 0;
     max-width: 60%;
   }
 }
