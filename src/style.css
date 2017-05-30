@@ -11,10 +11,16 @@
 body {
   padding-top: 50px;
   color: #0D1F24;
+  font-family: 'Khula', sans-serif;
 }
 
 .navbar {
   margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  border-bottom: 3px solid #A4C8D4;
 }
 
 .jumbotron {
@@ -22,6 +28,7 @@ body {
   background-color: #CF5041;
   padding-top: 40px;
   padding-bottom: 40px;
+  box-shadow: 0 1px 4px dimgrey;
 }
 
 .about {
@@ -51,6 +58,7 @@ body {
 .about-image {
   max-width: 250px;
   margin: 0 auto;
+  align-self: center;
 }
 
 .about-image img {
@@ -67,6 +75,10 @@ body {
 
 .project-img {
   margin: 0 auto;
+}
+
+.label-default {
+  background-color: #575C74;
 }
 
 @media screen and (min-width: 576px) {
