@@ -88,6 +88,9 @@ body {
 
 .project-img {
   margin: 0 auto;
+}
+
+.linked-project-img {
   cursor: zoom-in;
 }
 
