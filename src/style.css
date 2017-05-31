@@ -122,13 +122,14 @@ body {
 
 .social-links-group {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 1em;
 }
 
 .social-link {
-  width: 2em;
-  height: 2em;
+  width: 2.4em;
+  height: 2.4em;
   font-size: 2em;
   color: #575C74;
   margin: 0.1em;
@@ -140,6 +141,10 @@ body {
   background-color: #CF5041;
   color: white;
   border: 2px solid white;
+}
+
+.social-link i {
+  vertical-align: bottom;
 }
 
 .map {
