@@ -11,7 +11,6 @@
  */
 
 body {
-  padding-top: 50px;
   color: #0D1F24;
   font-family: 'Raleway', sans-serif;
 }
@@ -35,8 +34,6 @@ body {
 }
 
 .jumbotron {
-  position: relative;
-  top: -50px;
   margin-bottom: 0;
   background-color: #CF5041;
   padding-top: 90px;
@@ -91,6 +88,10 @@ body {
   margin-bottom: 4em;
 }
 
+.project:last-of-type {
+  margin-bottom: 1em;
+}
+
 .project-img {
   margin: 0 auto;
   border-radius: 4px;
@@ -110,9 +111,7 @@ body {
 }
 
 .contact {
-  position: relative;
-  top: -50px;
-  padding-top: 100px;
+  padding: 1em;
 }
 
 .social {
