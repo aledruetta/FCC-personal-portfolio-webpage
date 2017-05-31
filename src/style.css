@@ -6,6 +6,8 @@
  * blue:       #575C74
  * red:        #CF5041
  * black:      #0D1F24
+ *
+ * Google Fonts: Barrio, Raleway.
  */
 
 body {
@@ -84,7 +86,7 @@ body {
 
 .project-img {
   margin: 0 auto;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .linked-project-img {
@@ -105,18 +107,26 @@ body {
   justify-content: center;
 }
 
-.social-links {
+.social-links-group {
   display: flex;
   justify-content: space-between;
   padding: 5em;
 }
 
-.social-links > a {
+.social-link {
   width: 2em;
+  height: 2em;
   font-size: 2em;
   color: #575C74;
   margin: 0.1em;
   border: 0;
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  background-color: #CF5041;
+  color: white;
+  border: 2px solid white;
 }
 
 footer {
