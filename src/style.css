@@ -113,6 +113,10 @@ body {
   padding: 2em;
 }
 
+.project-details-labels {
+  margin-bottom: 0.5em;
+}
+
 .project-title {
   font-size: 22px;
   font-weight: 600;
