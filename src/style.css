@@ -141,7 +141,7 @@ body {
   flex-wrap: wrap;
   padding: 1em;
   min-width: 60%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .social-link {
